@@ -1,1 +1,28 @@
 /* your code */
+body{
+	font-family: sans-serif;
+}
+table{
+	font-size: 15px;
+	table-layout: fixed;
+}
+td,th{
+	padding: 10px;	
+	border: 1px white;
+	border-radius: 5px;
+
+}
+td{
+	width: 100px;
+}
+thead{
+	color: white;
+	background-color: blue;
+}
+tr:nth-child(even){
+	background-color: #d6d4d4;
+}
+td:first-child, th:first-child{
+	padding-right: 50px;
+}
+
